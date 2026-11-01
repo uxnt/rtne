@@ -1,4 +1,4 @@
-grammar TBox;
+grammar Rice;
 
 options {
     language = Cpp;
