@@ -1,6 +1,6 @@
 #Project infomations
 cmake_minimum_required(VERSION 3.21)
-project(rice)
+project(rtne)
 
 message ("Build Type: ${CMAKE_BUILD_TYPE}")
 
@@ -108,8 +108,8 @@ link_directories(
 )
 
 #Set Output
-add_executable(rice ${SRC_LIST})
-message ("Output: rice")
+add_executable(rtne ${SRC_LIST})
+message ("Output: rtne")
 
 llvm_map_components_to_libnames(llvm_libs ${LLVM_LINK_COMPONENTS})
 add_definitions(${LLVM_DEFINITIONS})
@@ -120,4 +120,4 @@ message ("Defininitions:${LLVM_DEFINITIONS}")
 message ("Libraries: antlr4-runtime ${llvm_libs} LLVM-C")
 
 #Link
-target_link_libraries(rice antlr4-runtime ${llvm_libs} LLVM-C)
+target_link_libraries(rtne antlr4-runtime ${llvm_libs} LLVM-C)
