@@ -44,7 +44,7 @@ func main() {
 打印输出：
 
 ```
-Hello, rtne
+rtne Hello
 ```
 
 ## Rice 编译器生成exe文件
