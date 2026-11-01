@@ -20,7 +20,7 @@ rtne 是一门开源的编程语言，于 2021 年 8 月 10 日正式启动，�
 
 # rtne 0.0.1
 
-## rtne 你好，rtne
+## rtne Hello
 
 [Hello.rtne](hello.md)
 
@@ -37,7 +37,7 @@ rtne 是一门开源的编程语言，于 2021 年 8 月 10 日正式启动，�
 
 import rtne.io
 func main() {
-	print("Hello, rtne");
+	print("rtne Hello");
 }
 
 ```
