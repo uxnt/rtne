@@ -1,4 +1,4 @@
-grammar Rice;
+grammar rtne;
 
 options {
     language = Cpp;
