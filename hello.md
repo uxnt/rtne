@@ -1,7 +1,7 @@
 
-## Rice 数学运算
-```Rice
-import rice.console;
+## rtne 数学运算
+```rtne
+import rtne.console;
 func main() {
 	num i = 1/4 + 4^2;
 	console.print(i);
@@ -14,9 +14,9 @@ func main() {
 ```
 
 
-## Rice 判断
-```rice
-import rice.console;
+## rtne 判断
+```rtne
+import rtne.console;
 func main() {
     num x = 6;
 	if(x > 5) {
@@ -32,9 +32,9 @@ Well done!
 ```
 
 
-## rice 字符串
-```rice
-import rice.console;
+## rtne 字符串
+```rtne
+import rtne.console;
 func main() {
 	string version = "0.0.1";
 	string title = "Text Game";
@@ -53,15 +53,15 @@ Good
 ```
 
 ## Rice 模块系统
-```rice
+```rtne
 import rice.console;
 export func add (int a,int b):int{
 	return a + b;
 }
 ```
 
-```rice
-import rice.console;
+```rtne
+import rtne.console;
 import module;
 func main(){
      console.print(module.add(1,2));
@@ -74,7 +74,7 @@ func main(){
 ```
 
 
-## Rice 关键字
+## rtne 关键字
 
 关键字|说明|支持
 -|-|-
@@ -101,7 +101,7 @@ break|循环结束|√
 0 |  | 
 
 
-## Rice 版本 0.0.1 关键字
+## rtne 版本 0.0.1 关键字
 
 关键字|说明|支持
 -|-|-
