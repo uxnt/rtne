@@ -1,1 +1,1 @@
-.\tools\antlr4.jar -Dlanguage=Cpp ./TBox.g4 -lib ./ -o ./build/src/ -visitor -no-listener -package tbox::language
+.\tools\antlr4.jar -Dlanguage=Cpp ./Rice.g4 -lib ./ -o ./build/src/ -visitor -no-listener -package rice::language
