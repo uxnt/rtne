@@ -1,7 +1,7 @@
 
-## Tbox 数学运算
-```tbox
-import tbox.console;
+## Rice 数学运算
+```Rice
+import rice.console;
 func main() {
 	num i = 1/4 + 4^2;
 	console.print(i);
@@ -14,9 +14,9 @@ func main() {
 ```
 
 
-## Tbox 判断
-```tbox
-import tbox.console;
+## Rice 判断
+```rice
+import rice.console;
 func main() {
     num x = 6;
 	if(x > 5) {
@@ -32,13 +32,13 @@ Well done!
 ```
 
 
-## Tbox 字符串
-```tbox
-import tbox.console;
+## rice 字符串
+```rice
+import rice.console;
 func main() {
 	string version = "0.0.1";
 	string title = "Text Game";
-	string text = "那天，这你来玩呢";
+	string text = "Good";
 	print(text);
 	print("你好，好耶，稍等");
 	print("稍等...");
@@ -47,21 +47,21 @@ func main() {
 打印输出：
 
 ```
-那天，这你来玩呢
+Good
 你好，好耶，稍等
 稍等...
 ```
 
-## TBox 模块系统
-```tbox
-import tbox.console;
+## Rice 模块系统
+```rice
+import rice.console;
 export func add (int a,int b):int{
 	return a + b;
 }
 ```
 
-```tbox
-import tbox.console;
+```rice
+import rice.console;
 import module;
 func main(){
      console.print(module.add(1,2));
@@ -74,7 +74,7 @@ func main(){
 ```
 
 
-## Tbox 关键字
+## Rice 关键字
 
 关键字|说明|支持
 -|-|-
@@ -101,7 +101,7 @@ break|循环结束|√
 0 |  | 
 
 
-## Tbox 版本 0.0.1 关键字
+## Rice 版本 0.0.1 关键字
 
 关键字|说明|支持
 -|-|-
