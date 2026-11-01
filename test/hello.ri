@@ -1,0 +1,5 @@
+import rice.io;
+
+func main() {
+	print("Hello, Rice");
+}
