@@ -1,7 +1,7 @@
  <div align="center">
 	<h1>
 	<a href="https://github.com/tbox-studio/tbox-language">
-	<img src="https://github.com/uxnt/rtne/blob/main/rtne/rtne.svg" height="120" >
+	<img src="https://github.com/uxnt/rtne/blob/main/rtne.svg" height="120" >
 	</a>
 	</h1>
 	<h4>rtne 编程语言</h4>
