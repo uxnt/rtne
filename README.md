@@ -33,7 +33,7 @@ Rice 编程语言是一门开源的大米编程语言，第一次Neon/NaxeLamp�
 // NaxeLamp
 // Otne > NeonLang 1.0 > NaxeLamp > Rice / Haxe / 2021-8-10
 
-import rice.console
+import rice.io
 func main() {
 	print("Hello, Rice");
 }
