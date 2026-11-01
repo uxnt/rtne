@@ -4,7 +4,7 @@
 	<img src="https://github.com/uxnt/NaxeLamp/blob/main/NaxeLamp/logo.png" height="120" >
 	</a>
 	</h1>
-	<h4>Rice 编程语言</h4>
+	<h4>rtne 编程语言</h4>
   <div>
   </div>
 	
@@ -13,15 +13,15 @@
 	
 </div>
 
-Rice 编程语言是一门开源的大米编程语言，第一次Neon/NaxeLamp开发改进，由 Uxnt大量团队开发。
+rtne 编程语言是一门开源的编程语言，开发改进，由 Uxnt大量团队开发。
 
 2024年3月1日开始Tbox改写成Rice
 
-# Rice 0.0.1
+# rtne 0.0.1
 
-## Rice 你好，大米
+## rtne 你好，rtne
 
-[NaxeHello.nl](hello.md)
+[Hello.rtne](hello.md)
 
 ```Neon
 // Screw 100
@@ -31,18 +31,19 @@ Rice 编程语言是一门开源的大米编程语言，第一次Neon/NaxeLamp�
 // CppScript 100
 // Neon
 // NaxeLamp
+// rtne
 // Otne > NeonLang 1.0 > NaxeLamp > Rice / Haxe / 2021-8-10
 
-import rice.io
+import rtne.io
 func main() {
-	print("Hello, Rice");
+	print("Hello, rtne");
 }
 
 ```
 打印输出：
 
 ```
-Hello, Rice
+Hello, rtne
 ```
 
 ## Rice 编译器生成exe文件
